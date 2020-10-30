@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 100%;
+
+}
+p{
+  font-weight: bold;
+}
+
+hr{
+  border-top: 7px dotted #eaf6f6;
+  width: 5%;
+  margin-bottom: 100px;
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+
+
+}
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.4rem;
+  color: #66BFBF;
+
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.2rem;
+  color: #66BFBF;
+
+
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+
+
+.first_container {
+  background-color: #e8ffff;
+  position: relative;
+  padding-top: 100px;
+}
+
+
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+
+}
+.skillpc{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.extra{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+
+}
+.profile{
+  width: 34%;
+  margin: 100px auto 100px auto;
+  line-height: 2;
+}
+.profile img{
+  width: 200px;
+  height: 200px;
+}
+.top-cloud {
+  position: absolute;
+  right: 200px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 200px;
+  bottom: 300px;
+}
+.btn{
+  color: #11999E;
+}
+.bottom-container{
+  margin-top: 100px;
+  background-color: #66bfbf;
+  padding: 40px 0 35px 0;
+}
+.bottom-container p {
+  color: #eaf6f6;
+  margin-top:40px;
+  font-weight: normal;
+  font-size: 0.75rem;
+}
+
+.contact-me{
+  width: 40%;
+  margin: 100px auto 100px auto;
+  line-height: 2;
+}
+.contact-msg{
+  margin-top: 40px;
+}
+.BUTTON_NET {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 15px;
+   font-weight: normal;
+   padding: 8px;
+
+   background-color: #66bfbf;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   height: auto;
+   width: 130px;
+   margin-top: 30px;
+   transition: background-color 0.4s;
+}
+
+.BUTTON_NET:hover{
+background-color: #11999E;
+}
+
+.footer-link:link,
+.footer-link:visited{
+  color: #11999E;
+  text-decoration: none;
+  padding-right: 30px;
+  transition: color 0.3s;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.footer-link:hover,
+.footer-link:active{
+  color: white;
+}
